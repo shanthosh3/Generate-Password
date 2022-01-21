@@ -1,8 +1,9 @@
-// Assignment code here
-
-
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+var charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowercaseVal = "abcdefghijklmnopqrstuvwxyz";
+var specialChar = "!@#$%^&*()_+-={}[]?<>,.:;'";
+var numVal = "0123456789";
 
 // Write password to the #password input
 function writePassword() {
